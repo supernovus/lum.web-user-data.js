@@ -1,7 +1,13 @@
+/**
+ * Simple user data for web browsers.
+ *
+ * @module module:@lumjs/web-user-data
+ */
 
 /**
  * Get the local time zone offset in seconds.
- * @method Lum.UserData.getTimezone
+ *
+ * @returns {number}
  */
 exports.getTimezone = function ()
 {
@@ -77,7 +83,6 @@ exports.getTimezone = function ()
  * page if you're using the Lum.php Accesslog feature. Just remember to add
  * the appropriate form field to the $request_expand_json property.
  * 
- * @method Lum.UserData.getInfo
  */
 exports.getInfo = function (opts)
 {
